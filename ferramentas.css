@@ -1,6 +1,6 @@
 #ferramentas {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
     gap: 10px;
     margin: 40px 20px;
     justify-content: center;
@@ -18,8 +18,6 @@
     border-radius: 4px;
     min-height: 400px;
     max-width: max-content;
-    position: relative;
-    width: 28.8%;
     text-align: justify;
 }
 .ferramenta button {

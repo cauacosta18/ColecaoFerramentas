@@ -36,6 +36,7 @@ main {
     border-radius: 4px;
     margin: 40px;
     width: 70%;
+    padding: 0 10px;
 }
 .fundo-pontilhado > h1 {
     margin: 40px;
