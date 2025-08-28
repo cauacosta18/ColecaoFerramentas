@@ -10,12 +10,16 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
     color: #e0e0e0;
     font-family: "Montserrat";
     background-color: #174d8a;
     position: relative;
+    min-height: 100vh;
 }
 a {
     text-decoration: none;

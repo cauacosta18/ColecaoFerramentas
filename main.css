@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 main {
     display: flex;
@@ -58,6 +59,7 @@ main {
     padding: 15px 0;
     margin: 0;
     flex-wrap: wrap;
+    width: 100%;
 }
 .fundo-pontilhado {
     position: relative;
@@ -78,8 +80,6 @@ main {
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     display: inline-block;
-    
     background-image: linear-gradient(135deg, #ffffff00 0%, #174d8a 70%, #174d8a 100%);
-
     z-index: -1;
 }

@@ -1,9 +1,12 @@
 #ferramentas {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     gap: 10px;
-    margin: 40px 20px;
+    box-sizing: border-box;
+    margin: 40px;
     justify-content: center;
+    width: 100%;
+    padding: 0 20px;
 }
 .ferramenta img{
     width: 100%;
@@ -19,6 +22,7 @@
     min-height: 400px;
     max-width: max-content;
     text-align: justify;
+    scroll-margin: 150px;
 }
 .ferramenta button {
     background-color: #174d8a;
