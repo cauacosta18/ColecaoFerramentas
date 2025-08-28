@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+
+}
+* {
+    transition: 70ms;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #e0e0e0;
+    font-family: "Montserrat";
+    background-color: #174d8a;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+a:hover, summary:hover {
+    color: #174d8a;
+}
+ul {
+    list-style: none;
+}
+img {
+    border-radius: 4px;
+}

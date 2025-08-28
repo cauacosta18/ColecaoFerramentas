@@ -1,0 +1,67 @@
+header, footer{
+    background-color: rgba(14, 14, 14, 0.904);
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    height: 100px;
+}
+header {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+footer {
+    flex-direction: column;
+}
+footer > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header h1 {
+    font-weight: normal;
+    font-size: 1em;
+}
+#insta, #tel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#insta::before, #tel::before, #linktree::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    bottom: 2px;
+}
+#insta::before {
+    background-image:url("img/icons/instagram-branco-icone.png") ;    
+}
+#insta:hover::before {
+    background-image: url("img/icons/instagram-azul-icone.png");
+}
+#tel::before {
+    background-image:url("img/icons/telefone-icone.png") ;
+    bottom: 0;
+}
+#linktree::before {
+    background-image: url("img/icons/linktree-branco-icone.png");
+    bottom: 0;
+}
+#linktree:hover::before {
+    background-image: url("img/icons/linktree-azul-icone.png");
+}

@@ -1,0 +1,84 @@
+#nav-inside li{  
+    padding: 10px 0;
+    border-radius: 4px;
+}
+#nav-inside a {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+}
+#nav-inside a:hover{
+    color: #e0e0e0;
+    background-color: #174d8a;
+}
+.fundo-pontilhado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+#nav-inside {
+    background-color: #0e0e0ee7;
+    color: #0e0e0ee7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    border-radius: 4px;
+    margin: 40px;
+    width: 70%;
+}
+.fundo-pontilhado > h1 {
+    margin: 40px;
+    font-size: 3em;
+    width: 70%;
+    text-shadow: 0px 0px 100px #4580c4;
+}
+.fundo-pontilhado > p {
+    width: 70%;
+    font-size: 1.25em;
+    text-shadow: 10px 1px 10px #4580c4;
+}
+#nav-inside ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.fundo-pontilhado {
+    position: relative;
+    padding-bottom: 30px;
+}
+.fundo-pontilhado::before{
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-image: url("img/fundo.png");
+    background-repeat: repeat;
+    background-size: 15px;
+    z-index: -1;
+    opacity: 20%;
+}
+.fundo-pontilhado::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    display: inline-block;
+    
+    background-image: linear-gradient(135deg, #ffffff00 0%, #174d8a 70%, #174d8a 100%);
+
+    z-index: -1;
+}
