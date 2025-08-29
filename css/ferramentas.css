@@ -12,7 +12,7 @@
     width: 100%;
 }
 .ferramenta {
-    background-color: #0e0e0ee7;
+    background-color: var(--corSecundaria);
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -25,7 +25,7 @@
     scroll-margin: 150px;
 }
 .ferramenta button {
-    background-color: #174d8a;
+    background-color: var(--corPrincipal);
     border: none;
     border-radius: 4px;
     min-height: 50px;
@@ -46,17 +46,17 @@
     width: 30px;
     height: 30px;
     background-size: cover;
-    background-image:url("img/icons/arrow-branco-icone.png") ;    
+    background-image:url("../img/icons/arrow-branco-icone.png") ;    
     position: relative;
     display: inline-block;
     top: 0.5px;
 }
 .ferramenta button:hover::after {
-    background-image: url("img/icons/arrow-azul-icone.png");
+    background-image: url("../img/icons/arrow-azul-icone.png");
 }
 .ferramenta button:hover {
-    background-color: #e0e0e0;
-    color: #174d8a;
+    background-color: var(--corTexto);
+    color: var(--corPrincipal);
 }
 .ferramenta h2 {
     font-size: 2.5em;
@@ -112,11 +112,11 @@
     bottom: 2px;
 }
 .site::after {
-    background-image: url("img/icons/browser-icone.png");
+    background-image: url("../img/icons/browser-icone.png");
 }
 .vscode::after {
-    background-image: url("img/icons/extensao-codigo-icone.png");
+    background-image: url("../img/icons/extensao-codigo-icone.png");
 }
 .navegador::after {
-    background-image: url("img/icons/extensao-browser-icone.png");
+    background-image: url("../img/icons/extensao-browser-icone.png");
 }
