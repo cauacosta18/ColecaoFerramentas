@@ -54,10 +54,6 @@ header h1 {
 #insta:hover::before {
     background-image: url("../img/icons/instagram-azul-icone.png");
 }
-#tel::before {
-    background-image:url("../img/icons/telefone-icone.png") ;
-    bottom: 0;
-}
 #linktree::before {
     background-image: url("../img/icons/linktree-branco-icone.png");
     bottom: 0;
