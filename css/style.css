@@ -11,8 +11,25 @@
 * {
     transition: 70ms;
 }
+*::selection {
+    background-color: var(--corTexto);
+    color: var(--corPrincipal);
+}
 html {
     scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    opacity: 100;
+}
+html::-webkit-scrollbar-button {
+    display: none;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: var(--corTexto);
+    border-radius: 100px;
+}
+html::-webkit-scrollbar-track-piece {
+    background-color: var(--corSecundaria);
 }
 body {
     display: flex;
